@@ -22,6 +22,3 @@ s.close()
 with requests.Session() as s:
     r = s.get('https://www.naver.com')
     print(r.text)
-
-
-    
